@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tca.tab.settings">Settings</label>
+			<label index="tca.field.pages">Page(s) containing the content elements for the slider</label>
+			<label index="controls.previous">Previous</label>
+			<label index="controls.next">Next</label>
+			<label index="flexform.sheet.animation">Animation</label>
+			<label index="flexform.label.animation">Animation</label>
+			<label index="flexform.label.direction">Direction</label>
+			<label index="flexform.label.reverse">Reverse</label>
+			<label index="flexform.label.animationLoop">Animation loop</label>
+			<label index="flexform.label.smoothHeight">Adjust height between slides</label>
+			<label index="flexform.label.startAt">Start with slide no.</label>
+			<label index="flexform.label.slideshow">Slideshow</label>
+			<label index="flexform.label.slideshowSpeed">Slideshow speed [ms]</label>
+			<label index="flexform.label.animationSpeed">Animation speed [ms]</label>
+			<label index="flexform.label.initDelay">Start delay</label>
+			<label index="flexform.label.randomize">Randomize</label>
+			<label index="flexform.sheet.usability">Interaction</label>
+			<label index="flexform.label.pauseOnAction">Pause on action</label>
+			<label index="flexform.label.pauseOnHover">Pause on mouseover</label>
+			<label index="flexform.label.video">Slides contain video</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="tca.tab.settings">Einstellungen</label>
+			<label index="tca.field.pages">Seite mit Slider-Elementen</label>
+			<label index="controls.previous">zurück</label>
+			<label index="controls.next">vor</label>
+			<label index="flexform.sheet.animation">Animation</label>
+			<label index="flexform.label.animation">Animation</label>
+			<label index="flexform.label.direction">Richtung</label>
+			<label index="flexform.label.reverse">Reihenfolge umkehren</label>
+			<label index="flexform.label.animationLoop">In Schleife abspielen</label>
+			<label index="flexform.label.smoothHeight">Auf Höhe der einzelnen Slides anpassen</label>
+			<label index="flexform.label.startAt">Starte mit Slide Nr.</label>
+			<label index="flexform.label.slideshow">Slideshow</label>
+			<label index="flexform.label.slideshowSpeed">Slideshow-Geschwindigkeit [ms]</label>
+			<label index="flexform.label.animationSpeed">Animations-Geschwindigkeit [ms]</label>
+			<label index="flexform.label.initDelay">Verzögerung</label>
+			<label index="flexform.label.randomize">Zufällige Reihenfolge</label>
+			<label index="flexform.sheet.usability">Interaktion</label>
+			<label index="flexform.label.pauseOnAction">Pause bei Interaktion</label>
+			<label index="flexform.label.pauseOnHover">Pause bei Mouseover</label>
+			<label index="flexform.label.video">Slides enthalten Video</label>
+		</languageKey>
+	</data>
+</T3locallang>

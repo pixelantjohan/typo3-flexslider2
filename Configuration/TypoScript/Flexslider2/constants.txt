@@ -1,0 +1,15 @@
+plugin.tx_fs2 {
+	view {
+		templateRootPath = EXT:fs2/Resources/Private/Templates/
+		partialRootPath = EXT:fs2/Resources/Private/Partials/
+		layoutRootPath = EXT:fs2/Resources/Private/Layouts/
+	}
+	persistence {
+		storagePid = 
+	}
+	settings {
+		cssLibFile = EXT:fs2/Resources/Public/Vendor/woothemes-FlexSlider/flexslider.css
+		jsLibFile = EXT:fs2/Resources/Public/Vendor/woothemes-FlexSlider/jquery.flexslider-min.js
+		jsFile = EXT:fs2/Resources/Public/JavaScript/flexslider2.js
+	}
+}

@@ -1,0 +1,15 @@
+plugin.tx_fs2 {
+	view {
+		templateRootPath = {$plugin.tx_fs2.view.templateRootPath}
+		partialRootPath = {$plugin.tx_fs2.view.partialRootPath}
+		layoutRootPath = {$plugin.tx_fs2.view.layoutRootPath}
+	}
+	persistence {
+		storagePid = {$plugin.tx_fs2.persistence.storagePid}
+	}
+	settings {
+		cssLibFile = {$plugin.tx_fs2.settings.cssLibFile}
+		jsLibFile = {$plugin.tx_fs2.settings.jsLibFile}
+		jsFile = {$plugin.tx_fs2.settings.jsFile}
+	}
+}
