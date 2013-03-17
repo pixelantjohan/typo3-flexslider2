@@ -3,7 +3,7 @@
 /***************************************************************
  * Extension Manager/Repository config file for ext "fs2".
  *
- * Auto generated 14-03-2013 17:52
+ * Auto generated 17-03-2013 08:48
  *
  * Manual updates:
  * Only the data in the array - everything else is removed by next
@@ -19,7 +19,7 @@ $EM_CONF[$_EXTKEY] = array (
 	'dependencies' => 'extbase,fluid',
 	'state' => 'alpha',
 	'clearCacheOnLoad' => 1,
-	'version' => '0.0.1',
+	'version' => '0.0.2',
 	'constraints' => 
 	array (
 		'depends' => 
@@ -33,6 +33,10 @@ $EM_CONF[$_EXTKEY] = array (
 		array (
 		),
 	),
+	'suggests' => 
+	array (
+	),
+	'conflicts' => NULL,
 );
 
 ?>
