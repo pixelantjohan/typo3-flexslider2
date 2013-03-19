@@ -33,7 +33,8 @@ class Flexslider2Controller extends ActionController {
 
 	public function indexAction() {
 		$this->insertResources();
-		return $this->renderContentObjects();
+		$cObjectRenderer = $this->objectManager->create('B263\\Fs2\\Utility\\SliderContentObjectRenderer', $this->configurationManager->getContentObject());
+		$this->view->assign('content', $cObjectRenderer->renderAll());
 	}
 
 	protected function insertResources() {
@@ -48,26 +49,6 @@ class Flexslider2Controller extends ActionController {
 				}
 			}
 		}
-	}
-
-	protected function renderContentObjects() {
-		$cObjectRenderer = $this->configurationManager->getContentObject();
-		$conf = array(
-			'table' => 'tt_content',
-			'select.' => array(
-				'pidInList' => $cObjectRenderer->data['pages'],
-				'where' => sprintf('(sys_language_uid="-1" OR sys_language_uid="%s")', $cObjectRenderer->data['sys_language_uid']),
-				'andWhere' => 'CType!="fs2_pi1"', // prevents recursion
-				'orderBy' => 'sorting',
-			),
-			'renderObj.' => array(
-				'stdWrap.' => array(
-					'wrap' => '<li> | </li>',
-				),
-			),
-			'wrap' => '<ul class="slides"> | </ul>',
-		);
-		$this->view->assign('content', $cObjectRenderer->CONTENT($conf));
 	}
 
 }

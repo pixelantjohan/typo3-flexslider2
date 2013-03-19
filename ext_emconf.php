@@ -3,7 +3,7 @@
 /***************************************************************
  * Extension Manager/Repository config file for ext "fs2".
  *
- * Auto generated 17-03-2013 08:48
+ * Auto generated 19-03-2013 19:31
  *
  * Manual updates:
  * Only the data in the array - everything else is removed by next
@@ -12,14 +12,14 @@
 
 $EM_CONF[$_EXTKEY] = array (
 	'title' => 'FlexSlider 2',
-	'description' => 'Slide any content element with FlexSlider 2',
+	'description' => 'Slide any content element with FlexSlider 2. The extension is still in alpha state. Upcoming releases might break content elements created with this version.',
 	'category' => 'plugin',
 	'author' => 'Bastian Braeu',
 	'author_email' => 'bb@bftmedia.de',
 	'dependencies' => 'extbase,fluid',
 	'state' => 'alpha',
 	'clearCacheOnLoad' => 1,
-	'version' => '0.0.2',
+	'version' => '0.0.3',
 	'constraints' => 
 	array (
 		'depends' => 
