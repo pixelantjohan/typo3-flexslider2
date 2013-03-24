@@ -52,3 +52,5 @@ class Flexslider2Controller extends ActionController {
 	}
 
 }
+
+?>

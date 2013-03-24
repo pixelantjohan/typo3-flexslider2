@@ -22,3 +22,5 @@ $TCA['tt_content']['types'][$_EXTKEY . '_pi1']['showitem'] = '
 		--palette--;LLL:EXT:cms/locallang_ttc.xml:palette.visibility;visibility,
 		--palette--;LLL:EXT:cms/locallang_ttc.xml:palette.access;access,
 ';
+
+?>

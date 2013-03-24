@@ -52,7 +52,8 @@ class SliderContentObjectRenderer {
 			'select.' => array(
 				'pidInList' => $this->cObjectRenderer->data['pages'],
 				'where' => sprintf('(sys_language_uid="-1" OR sys_language_uid="%s")', $this->cObjectRenderer->data['sys_language_uid']),
-				'andWhere' => 'CType!="fs2_pi1"', // prevents recursion
+				// prevents recursion
+				'andWhere' => 'CType!="fs2_pi1"',
 				'orderBy' => 'sorting',
 			),
 			'renderObj.' => array(
@@ -74,7 +75,8 @@ class SliderContentObjectRenderer {
 			'conf.' => array(
 				'tt_content.' => array(
 					'stdWrap.' => array(
-						'outerWrap' => '<li> | </li>', //TODO make wrap configurable
+						//TODO make wrap configurable
+						'outerWrap' => '<li> | </li>',
 					),
 				),
 			),
@@ -90,3 +92,5 @@ class SliderContentObjectRenderer {
 	}
 
 }
+
+?>

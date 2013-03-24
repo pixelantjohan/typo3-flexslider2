@@ -22,3 +22,5 @@ $pageTsConfig = <<<'EOT'
 	mod.wizards.newContentElement.wizardItems.special.show := addToList(fs2_pi1)
 EOT;
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPageTSConfig($pageTsConfig);
+
+?>
